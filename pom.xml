@@ -16,22 +16,24 @@
 
     <build>
         <pluginManagement>
-           <plugins>
-               <plugin>
-                   <groupId>org.apache.maven.plugins</groupId>
-                   <artifactId>maven-compiler-plugin</artifactId>
-                   <version>3.13.0</version>
-               </plugin>
-               <plugin>
-                   <groupId>org.apache.maven.plugins</groupId>
-                   <artifactId>maven-surefire-plugin</artifactId>
-                   <version>3.5.1</version>
-                   <configuration>
-<!--                       TestNg suite XML files-->
-                       <suiteXmlFiles>resources/testCases/mercuryTravelTestCases.xml</suiteXmlFiles>
-                   </configuration>
-               </plugin>
-           </plugins>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>3.13.0</version>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-surefire-plugin</artifactId>
+                    <version>3.5.1</version>
+                    <configuration>
+                        <suiteXmlFiles>
+                            <!--                       TestNg suite XML files-->
+                            <suiteXmlFile>resources/testCases/mercuryTravelTestCases.xml</suiteXmlFile>
+                        </suiteXmlFiles>
+                    </configuration>
+                </plugin>
+            </plugins>
         </pluginManagement>
     </build>
 

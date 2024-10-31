@@ -1,36 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-24T10:47:22 CEST" name="Regression Test Suite" finished-at="2024-10-24T10:47:59 CEST" duration-ms="37080">
+  <suite started-at="2024-10-28T11:06:02 CET" name="Regression Test Suite" finished-at="2024-10-28T11:06:51 CET" duration-ms="48891">
     <groups>
     </groups>
-    <test started-at="2024-10-24T10:47:22 CEST" name="Regression Test" finished-at="2024-10-24T10:47:59 CEST" duration-ms="37080">
+    <test started-at="2024-10-28T11:06:02 CET" name="Regression Test" finished-at="2024-10-28T11:06:51 CET" duration-ms="48891">
       <class name="mercuryTravel.tests.MercuryTravelTestCases">
-        <test-method is-config="true" signature="preSetup()[pri:0, instance:mercuryTravel.tests.MercuryTravelTestCases@7ec7ffd3]" started-at="2024-10-24T10:47:22 CEST" name="preSetup" finished-at="2024-10-24T10:47:22 CEST" duration-ms="108" status="PASS">
+        <test-method is-config="true" signature="preSetup()[pri:0, instance:mercuryTravel.tests.MercuryTravelTestCases@5876a9af]" started-at="2024-10-28T11:06:02 CET" name="preSetup" finished-at="2024-10-28T11:06:02 CET" duration-ms="138" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preSetup -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:mercuryTravel.tests.MercuryTravelTestCases@7ec7ffd3]" started-at="2024-10-24T10:47:22 CEST" name="setup" finished-at="2024-10-24T10:47:25 CEST" duration-ms="2922" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:mercuryTravel.tests.MercuryTravelTestCases@5876a9af]" started-at="2024-10-28T11:06:02 CET" name="setup" finished-at="2024-10-28T11:06:09 CET" duration-ms="6964" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLoginWithCorrectCredentials()[pri:0, instance:mercuryTravel.tests.MercuryTravelTestCases@7ec7ffd3]" started-at="2024-10-24T10:47:25 CEST" name="verifyLoginWithCorrectCredentials" finished-at="2024-10-24T10:47:37 CEST" duration-ms="11705" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginWithCorrectCredentials -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:mercuryTravel.tests.MercuryTravelTestCases@7ec7ffd3]" started-at="2024-10-24T10:47:37 CEST" name="afterMethod" finished-at="2024-10-24T10:47:37 CEST" duration-ms="3" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyLoginWithCorrectCredentials status=SUCCESS method=MercuryTravelTestCases.verifyLoginWithCorrectCredentials()[pri:0, instance:mercuryTravel.tests.MercuryTravelTestCases@7ec7ffd3] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="verifyLoginWithCorrectCredentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mercuryTravel.tests.MercuryTravelTestCases@7ec7ffd3]" started-at="2024-10-24T10:47:38 CEST" name="verifyLoginWithCorrectCredentials" data-provider="getUserData" finished-at="2024-10-24T10:47:47 CEST" duration-ms="9082" status="PASS">
+        <test-method signature="verifyLoginWithCorrectCredentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mercuryTravel.tests.MercuryTravelTestCases@5876a9af]" started-at="2024-10-28T11:06:10 CET" name="verifyLoginWithCorrectCredentials" data-provider="getUserData" finished-at="2024-10-28T11:06:25 CET" duration-ms="14906" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -51,18 +36,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginWithCorrectCredentials -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:mercuryTravel.tests.MercuryTravelTestCases@7ec7ffd3]" started-at="2024-10-24T10:47:47 CEST" name="afterMethod" finished-at="2024-10-24T10:47:47 CEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:mercuryTravel.tests.MercuryTravelTestCases@5876a9af]" started-at="2024-10-28T11:06:25 CET" name="afterMethod" finished-at="2024-10-28T11:06:25 CET" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyLoginWithCorrectCredentials status=SUCCESS method=MercuryTravelTestCases.verifyLoginWithCorrectCredentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mercuryTravel.tests.MercuryTravelTestCases@7ec7ffd3] output={null}]]]>
+                <![CDATA[[TestResult name=verifyLoginWithCorrectCredentials status=SUCCESS method=MercuryTravelTestCases.verifyLoginWithCorrectCredentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mercuryTravel.tests.MercuryTravelTestCases@5876a9af] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method signature="verifyLoginWithCorrectCredentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mercuryTravel.tests.MercuryTravelTestCases@7ec7ffd3]" started-at="2024-10-24T10:47:47 CEST" name="verifyLoginWithCorrectCredentials" data-provider="getUserData" finished-at="2024-10-24T10:47:59 CEST" duration-ms="12059" status="PASS">
+        <test-method signature="verifyLoginWithCorrectCredentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mercuryTravel.tests.MercuryTravelTestCases@5876a9af]" started-at="2024-10-28T11:06:25 CET" name="verifyLoginWithCorrectCredentials" data-provider="getUserData" finished-at="2024-10-28T11:06:40 CET" duration-ms="14610" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -83,22 +68,102 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginWithCorrectCredentials -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:mercuryTravel.tests.MercuryTravelTestCases@7ec7ffd3]" started-at="2024-10-24T10:47:59 CEST" name="afterMethod" finished-at="2024-10-24T10:47:59 CEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:mercuryTravel.tests.MercuryTravelTestCases@5876a9af]" started-at="2024-10-28T11:06:40 CET" name="afterMethod" finished-at="2024-10-28T11:06:40 CET" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyLoginWithCorrectCredentials status=SUCCESS method=MercuryTravelTestCases.verifyLoginWithCorrectCredentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mercuryTravel.tests.MercuryTravelTestCases@7ec7ffd3] output={null}]]]>
+                <![CDATA[[TestResult name=verifyLoginWithCorrectCredentials status=SUCCESS method=MercuryTravelTestCases.verifyLoginWithCorrectCredentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mercuryTravel.tests.MercuryTravelTestCases@5876a9af] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:mercuryTravel.tests.MercuryTravelTestCases@7ec7ffd3]" started-at="2024-10-24T10:47:59 CEST" name="cleanUp" finished-at="2024-10-24T10:47:59 CEST" duration-ms="298" status="PASS">
+        <test-method signature="verifyLoginWithCorrectCredentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mercuryTravel.tests.MercuryTravelTestCases@5876a9af]" started-at="2024-10-28T11:06:40 CET" name="verifyLoginWithCorrectCredentials" data-provider="getUserData" finished-at="2024-10-28T11:06:50 CET" duration-ms="10626" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[saurabh.d2106@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pro@1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Welcome,Goran]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Welcome,Goran] but found [Welcome, Saurabh]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Welcome,Goran] but found [Welcome, Saurabh]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at mercuryTravel.tests.MercuryTravelTestCases.verifyLoginWithCorrectCredentials(MercuryTravelTestCases.java:44)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithCorrectCredentials -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:mercuryTravel.tests.MercuryTravelTestCases@5876a9af]" started-at="2024-10-28T11:06:50 CET" name="afterMethod" finished-at="2024-10-28T11:06:51 CET" duration-ms="94" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginWithCorrectCredentials status=FAILURE method=MercuryTravelTestCases.verifyLoginWithCorrectCredentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:mercuryTravel.tests.MercuryTravelTestCases@5876a9af] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:mercuryTravel.tests.MercuryTravelTestCases@5876a9af]" started-at="2024-10-28T11:06:51 CET" name="cleanUp" finished-at="2024-10-28T11:06:51 CET" duration-ms="302" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="postCleanUp()[pri:0, instance:mercuryTravel.tests.MercuryTravelTestCases@7ec7ffd3]" started-at="2024-10-24T10:47:59 CEST" name="postCleanUp" finished-at="2024-10-24T10:48:00 CEST" duration-ms="551" status="PASS">
+        <test-method is-config="true" signature="postCleanUp()[pri:0, instance:mercuryTravel.tests.MercuryTravelTestCases@5876a9af]" started-at="2024-10-28T11:06:51 CET" name="postCleanUp" finished-at="2024-10-28T11:06:51 CET" duration-ms="564" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCleanUp -->
