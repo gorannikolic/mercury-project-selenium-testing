@@ -16,7 +16,7 @@ public class TestExcelDriverUtil {
         excelDriver.createSheet(sheetName);
 
         excelDriver.setCellData(sheetName, 0,0, "Goran");
-        excelDriver.setCellData(sheetName,0,1,"Goranovic");
+        excelDriver.setCellData(sheetName,0,1,"Goranicevic");
 
         excelDriver.setCellData(sheetName, 1,0, "Petar");
         excelDriver.setCellData(sheetName,1,1,"Petrovic");
